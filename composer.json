@@ -1,0 +1,23 @@
+{
+    "name": "jtgrimes/advent_of_code",
+    "description": "PHP solutions to adventofcode.com",
+    "type": "project",
+    "require": {
+        "symfony/console": "^6.3",
+        "nesbot/carbon": "^2.71",
+        "illuminate/collections": "^10.32",
+        "illuminate/support": "^10.32"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jtgrimes\\AdventOfCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "J.T. Grimes",
+            "email": "github@jtgrimes.com"
+        }
+    ]
+}
